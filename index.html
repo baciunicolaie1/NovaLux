@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08050f">
+  <meta name="description" content="Discover premium tech accessories, audio, smartwatches and everyday essentials at NovaLux.">
+  <title>NovaLux — Elevate Your Style</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    <span class="announcement-spark">✦</span>
+    Free worldwide shipping on orders over $50
+    <span class="announcement-spark">✦</span>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="NovaLux home">
+      <span class="brand-symbol">✦</span><span>NovaLux</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#categories">Categories</a>
+      <a class="nav-link" href="#shop">Shop</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" id="searchButton" aria-label="Search products">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+      </button>
+      <button class="icon-button cart-button" id="cartButton" aria-label="View cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 1.9-1.5L22 8H6"></path><circle cx="10" cy="21" r="1"></circle><circle cx="18" cy="21" r="1"></circle></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="icon-button theme-button" id="themeButton" aria-label="Toggle light and dark theme">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"></path></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-noise"></div>
+      <div class="hero-light hero-light-one"></div>
+      <div class="hero-light hero-light-two"></div>
+      <div class="hero-wave"></div>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> THE NEXT LEVEL OF ACCESSORIES</div>
+
+          <h1>Elevate Your<br><em>Style.</em></h1>
+
+          <p class="hero-description">
+            Premium accessories that blend cutting-edge innovation,
+            timeless design and everyday performance.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#shop">Explore Collection <span>↗</span></a>
+            <a class="button button-outline" href="#about">Discover NovaLux <span>→</span></a>
+          </div>
+
+          <div class="social-proof">
+            <div class="avatar-stack">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt="">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt="">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=80&q=80" alt="">
+              <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&q=80" alt="">
+            </div>
+            <div class="social-proof-text"><strong>+10k</strong> happy customers</div>
+          </div>
+        </div>
+
+        <div class="hero-visual" id="heroVisual">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-orbit orbit-three"></div>
+          <div class="hero-glow"></div>
+
+          <div class="floating-note note-top">
+            <span class="note-icon">✦</span>
+            <span><strong>Premium Design</strong><small>Every detail matters</small></span>
+          </div>
+
+          <div class="hero-product-wrap">
+            <img class="hero-product" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1100&q=90" alt="Premium over-ear headphones">
+          </div>
+
+          <div class="floating-note note-bottom">
+            <span class="status-dot"></span>
+            <span><strong>Next-level quality</strong><small>Made for your lifestyle</small></span>
+          </div>
+
+          <div class="hero-pagination"><strong>01</strong><span>/ 04</span></div>
+          <div class="hero-caption">THE SIGNATURE COLLECTION</div>
+          <span class="hero-orb orb-a"></span>
+          <span class="hero-orb orb-b"></span>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#benefits"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div class="benefit-item reveal">
+        <span class="benefit-icon">✧</span><span><strong>Premium</strong><small>Curated quality</small></span>
+      </div>
+      <div class="benefit-item reveal">
+        <span class="benefit-icon">◎</span><span><strong>Worldwide</strong><small>Shipping available</small></span>
+      </div>
+      <div class="benefit-item reveal">
+        <span class="benefit-icon">✦</span><span><strong>Modern</strong><small>Designed to stand out</small></span>
+      </div>
+      <div class="benefit-item reveal">
+        <span class="benefit-icon">↗</span><span><strong>NovaLux</strong><small>Your style, redefined</small></span>
+      </div>
+    </section>
+
+    <section class="categories-section section-pad" id="categories">
+      <div class="section-intro reveal">
+        <div>
+          <div class="eyebrow">EXPLORE NOVALUX</div>
+          <h2>Find Your <em>Next Favorite.</em></h2>
+          <p>Accessories that bring technology and personal style together.</p>
+        </div>
+        <a href="#shop" class="text-link">Explore all <span>↗</span></a>
+      </div>
+
+      <div class="category-grid">
+        <a href="#shop" class="category-card reveal" data-category-link="Audio">
+          <div class="category-image">
+            <span class="category-number">01</span>
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85" alt="Premium headphones" loading="lazy">
+            <span class="category-arrow">↗</span>
+          </div>
+          <div class="category-info"><h3>Audio</h3><p>Sound without limits</p></div>
+        </a>
+
+        <a href="#shop" class="category-card reveal" data-category-link="Watches">
+          <div class="category-image">
+            <span class="category-number">02</span>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85" alt="Minimal wristwatch" loading="lazy">
+            <span class="category-arrow">↗</span>
+          </div>
+          <div class="category-info"><h3>Smartwatches</h3><p>Stay connected</p></div>
+        </a>
+
+        <a href="#shop" class="category-card reveal" data-category-link="Phone">
+          <div class="category-image">
+            <span class="category-number">03</span>
+            <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=700&q=85" alt="Modern smartphone" loading="lazy">
+            <span class="category-arrow">↗</span>
+          </div>
+          <div class="category-info"><h3>Phone Accessories</h3><p>Protection meets style</p></div>
+        </a>
+
+        <a href="#shop" class="category-card reveal" data-category-link="Tech">
+          <div class="category-image">
+            <span class="category-number">04</span>
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=700&q=85" alt="Premium wireless speaker" loading="lazy">
+            <span class="category-arrow">↗</span>
+          </div>
+          <div class="category-info"><h3>Tech Essentials</h3><p>Upgrade your setup</p></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="shop-section section-pad" id="shop">
+      <div class="section-intro shop-intro reveal">
+        <div>
+          <div class="eyebrow">THE NOVALUX EDIT</div>
+          <h2>Made to <em>Move You.</em></h2>
+          <p>Thoughtful design. Everyday essentials. Exceptional feel.</p>
+        </div>
+        <div class="filter-list" role="group" aria-label="Filter products">
+          <button class="filter-chip active" data-filter="All">All</button>
+          <button class="filter-chip" data-filter="Audio">Audio</button>
+          <button class="filter-chip" data-filter="Watches">Watches</button>
+          <button class="filter-chip" data-filter="Phone">Phone</button>
+          <button class="filter-chip" data-filter="Tech">Tech</button>
+        </div>
+      </div>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card reveal" data-name="Aura Pro Headphones" data-category="Audio" data-price="129">
+          <div class="product-image">
+            <span class="product-tag">BESTSELLER</span>
+            <button class="wishlist-button" aria-label="Add Aura Pro Headphones to wishlist">♡</button>
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=85" alt="Aura Pro headphones" loading="lazy">
+            <button class="quick-add" data-add="Aura Pro Headphones" data-price="129">Add to cart <span>+</span></button>
+          </div>
+          <div class="product-details"><div><p class="product-category">AUDIO / WIRELESS</p><h3>Aura Pro Headphones</h3></div><strong>$129.00</strong></div>
+          <div class="product-rating"><span>★★★★★</span> <small>(128 reviews)</small></div>
+        </article>
+
+        <article class="product-card reveal" data-name="Luna Smartwatch" data-category="Watches" data-price="189">
+          <div class="product-image">
+            <span class="product-tag tag-new">NEW ARRIVAL</span>
+            <button class="wishlist-button" aria-label="Add Luna Smartwatch to wishlist">♡</button>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=85" alt="Luna smartwatch" loading="lazy">
+            <button class="quick-add" data-add="Luna Smartwatch" data-price="189">Add to cart <span>+</span></button>
+          </div>
+          <div class="product-details"><div><p class="product-category">WEARABLE / SMART</p><h3>Luna Smartwatch</h3></div><strong>$189.00</strong></div>
+          <div class="product-rating"><span>★★★★★</span> <small>(86 reviews)</small></div>
+        </article>
+
+        <article class="product-card reveal" data-name="Nova Phone Case" data-category="Phone" data-price="39">
+          <div class="product-image">
+            <span class="product-tag tag-pick">STAFF PICK</span>
+            <button class="wishlist-button" aria-label="Add Nova Phone Case to wishlist">♡</button>
+            <img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=800&q=85" alt="Modern phone and accessories" loading="lazy">
+            <button class="quick-add" data-add="Nova Phone Case" data-price="39">Add to cart <span>+</span></button>
+          </div>
+          <div class="product-details"><div><p class="product-category">PHONE / PROTECTION</p><h3>Nova Phone Case</h3></div><strong>$39.00</strong></div>
+          <div class="product-rating"><span>★★★★★</span> <small>(54 reviews)</small></div>
+        </article>
+
+        <article class="product-card reveal" data-name="Pulse Mini Speaker" data-category="Tech" data-price="79">
+          <div class="product-image">
+            <span class="product-tag">EDITOR'S CHOICE</span>
+            <button class="wishlist-button" aria-label="Add Pulse Mini Speaker to wishlist">♡</button>
+            <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=85" alt="Pulse wireless speaker" loading="lazy">
+            <button class="quick-add" data-add="Pulse Mini Speaker" data-price="79">Add to cart <span>+</span></button>
+          </div>
+          <div class="product-details"><div><p class="product-category">TECH / AUDIO</p><h3>Pulse Mini Speaker</h3></div><strong>$79.00</strong></div>
+          <div class="product-rating"><span>★★★★★</span> <small>(73 reviews)</small></div>
+        </article>
+      </div>
+      <p class="empty-products" id="emptyProducts" hidden>No products in this category yet.</p>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="about-visual reveal">
+        <div class="about-image-frame">
+          <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1000&q=85" alt="Minimal, carefully designed lifestyle space" loading="lazy">
+          <div class="about-image-glow"></div>
+        </div>
+        <div class="about-stamp"><span>NL</span><small>DESIGNED FOR<br>YOUR EVERYDAY</small></div>
+      </div>
+
+      <div class="about-copy reveal">
+        <div class="eyebrow">A DIFFERENT KIND OF EVERYDAY</div>
+        <h2>Technology with<br><em>a little more soul.</em></h2>
+        <p>We believe the things you use every day should feel as good as they work. NovaLux brings together considered design, useful technology and details that make the ordinary feel extraordinary.</p>
+        <a href="#shop" class="button button-primary">Discover the collection <span>↗</span></a>
+        <div class="about-stat-row">
+          <div><strong>10k<span>+</span></strong><small>Happy customers</small></div>
+          <div><strong>24<span>/7</span></strong><small>Here to help</small></div>
+          <div><strong>Global</strong><small>Worldwide shipping</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section section-pad" id="contact">
+      <div class="newsletter-glow"></div>
+      <div class="newsletter-content reveal">
+        <div class="eyebrow">A LITTLE SOMETHING EXTRA</div>
+        <h2>Good taste.<br><em>Great updates.</em></h2>
+        <p>Be first to discover new arrivals, exclusive offers and the next big thing.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <label class="sr-only" for="emailInput">Your email address</label>
+          <input id="emailInput" type="email" placeholder="Your email address" required>
+          <button class="button button-primary" type="submit">Join NovaLux <span>→</span></button>
+        </form>
+        <small class="newsletter-note">By subscribing, you agree to receive NovaLux updates.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#home"><span class="brand-symbol">✦</span><span>NovaLux</span></a>
+        <p>Thoughtful tech. Elevated everyday.</p>
+      </div>
+      <div class="footer-column"><strong>Explore</strong><a href="#categories">Categories</a><a href="#shop">Shop all</a><a href="#about">Our story</a></div>
+      <div class="footer-column"><strong>Help</strong><a href="#contact">Contact</a><a href="#contact">Shipping information</a><a href="#contact">Returns</a></div>
+      <div class="footer-column"><strong>Follow the glow</strong><a href="#contact">Instagram ↗</a><a href="#contact">Pinterest ↗</a><a href="#contact">TikTok ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> NovaLux. All rights reserved.</span><span>Designed to stand out <b>✦</b></span></div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <div class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+      <div class="search-topline"><span id="searchTitle">DISCOVER SOMETHING GOOD</span><button id="searchClose" aria-label="Close search">✕</button></div>
+      <form id="searchForm" class="search-form">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+        <input id="searchInput" type="search" placeholder="Search the collection..." autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <div class="search-results" id="searchResults"></div>
+      <p class="search-hint">TRY: HEADPHONES, WATCH, SPEAKER</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
